@@ -25,7 +25,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
     integTestCompile "com.android.tools.build:gradle:$build_tools_version"
     integTestCompile gradleTestKit()
-    integTestCompile('org.spockframework:spock-core:1.1-groovy-2.4') {
+    integTestCompile('org.spockframework:spock-core:1.2-groovy-2.5') {
         exclude module: 'groovy-all'
     }
 }
