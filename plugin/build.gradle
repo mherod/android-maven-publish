@@ -2,7 +2,7 @@ plugins {
     id 'groovy'
     id 'maven-publish'
     id 'com.jfrog.bintray' version '1.8.4'
-    id 'com.gradle.plugin-publish' version '0.9.10'
+    id 'com.gradle.plugin-publish' version '0.10.1'
     id 'org.ajoberstar.git-publish' version '2.1.1'
     id 'idea'
     id 'jacoco'
